@@ -1,0 +1,28 @@
+@media (max-width: 575.98px) {
+  .banner-container,
+  .home-about-container {
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+  .banner-left-wrapper {
+    width: 100%;
+    padding-top: 0;
+  }
+  .banner-right-wrapper,
+  .home-about-right-wrapper {
+    width: 100%;
+  }
+  .home-about-left-wrapper {
+    width: 100%;
+  }
+  .intro-text h1 {
+    font-size: 20px;
+  }
+  .main-menu-container ul {
+    display: none;
+  }
+  .banner-photo,
+  .home-about-photo {
+    width: 100%;
+  }
+}

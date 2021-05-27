@@ -1,0 +1,85 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* menu containerio parametrai */
+.main-menu-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+.menu-wrapper ul {
+  display: flex;
+}
+/* nuimami taskeliai ir padding nuo listo */
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+/* aprasomi menu bar esantys elementai*/
+.menu ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #222;
+  font-weight: 500;
+  font-size: 12px;
+  padding: 10px 0 10px 30px;
+}
+/* kad dropdown menu elementai nebutu didziosiomis raidemis */
+.dropdown-menu ul li a {
+  text-transform: none;
+  padding: 20px 70px 20px 10px;
+}
+/* hover */
+.menu ul li a:hover {
+  color: #8490ff;
+}
+/* position relative  */
+.menu ul li {
+  position: relative;
+}
+/* tarpas tarp dropdown menu teksto eiluciu*/
+.dropdown-menu ul li {
+  padding: 15px 0;
+}
+/*dropdowm menu position absolute + flex, kad menu pasirinkimai eitu vienas po kitu */
+.dropdown-menu ul {
+  position: absolute;
+  right: 0;
+  top: 30px;
+  z-index: 99;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  display: none;
+}
+.level-dropdown-menu ul {
+  right: 150px;
+  top: 0;
+}
+/* hover */
+.menu ul li:hover .dropdown-menu > ul {
+  display: block;
+}
+.level-dropdown-menu:hover .dropdown-menu2 {
+  display: block;
+}
+/* ant menu uzdeti fixed positon*/
+body {
+  position: relative;
+}
+.header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  background: white;
+}
+/* kad menu neuzliptu ant section one, reikia  uzdeti ant section one , tokio aukscio kokio yra menu*/
+.banner {
+  padding-top: 70px;
+}
