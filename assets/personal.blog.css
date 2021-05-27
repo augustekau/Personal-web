@@ -1,0 +1,46 @@
+/* adding picture as background */
+.blog-home-banner {
+  background: url(https://preview.colorlib.com/theme/personal/img/blog/xblog-home-banner.jpg.pagespeed.ic.aiMsZVJs5x.jpg)
+    bottom;
+  background-size: cover;
+  padding: 200px 0;
+}
+/* align text in the center */
+.blog-home-banner-container {
+  width: 1140px;
+  margin: 0 auto;
+  padding-top: 70px;
+}
+.blog-banner-text {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+/* text formatting */
+.blog-banner-text h1 {
+  color: #fff;
+  max-width: 500px;
+  margin: 0 auto;
+  font-size: 48px;
+  font-weight: 600;
+}
+.blog-banner-text p {
+  color: #fff;
+  font-size: 14px;
+  padding: 10px 0;
+}
+.blog-banner-text p a {
+  text-decoration: none;
+  background: #fff;
+  color: #222;
+  font-weight: 600;
+  padding: 10px 20px;
+}
+/* hoveris */
+.blog-banner-text p a:hover {
+  background: none;
+  color: white;
+  border: 1px solid white;
+  transition: all 200ms ease-in-out;
+}
