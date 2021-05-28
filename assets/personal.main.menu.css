@@ -78,6 +78,7 @@ body {
   left: 0;
   right: 0;
   background: white;
+  z-index: 99;
 }
 /* kad menu neuzliptu ant section one, reikia  uzdeti ant section one , tokio aukscio kokio yra menu*/
 .banner {

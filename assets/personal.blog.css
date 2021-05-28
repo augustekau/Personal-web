@@ -4,6 +4,17 @@
     bottom;
   background-size: cover;
   padding: 200px 0;
+  position: relative;
+}
+.overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.blog-home-banner .overlay {
+  background: rgba(0, 0, 0, 0.5);
 }
 /* align text in the center */
 .blog-home-banner-container {
@@ -16,17 +27,17 @@
   justify-content: center;
   text-align: center;
   flex-direction: column;
+  color: #fff;
+  position: relative;
 }
 /* text formatting */
 .blog-banner-text h1 {
-  color: #fff;
   max-width: 500px;
   margin: 0 auto;
   font-size: 48px;
   font-weight: 600;
 }
 .blog-banner-text p {
-  color: #fff;
   font-size: 14px;
   padding: 10px 0;
 }
