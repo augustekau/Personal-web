@@ -132,30 +132,30 @@
   background: #f9f9ff;
 }
 /* positioning */
-.meta-details {
-  max-width: 25%;
-  /* background: burlywood; */
-}
-.main-post-info {
-  max-width: 75%;
-  /* background: darkgrey; */
-}
-.post-list-row {
-  display: flex;
-}
 .post-area-row {
   display: flex;
 }
 .post-list {
-  max-width: 66.66667%;
+  width: 66.66667%;
 }
 .sidebar-widget {
-  max-width: 33.33333%;
+  width: 33.33333%;
+}
+.post-list-row {
+  display: flex;
+}
+.meta-details {
+  width: 25%;
+  /* background: burlywood; */
+}
+.main-post-info {
+  width: 75%;
+  /* background: darkgrey; */
 }
 .post-image {
   max-width: 100%;
 }
-/* aling all text in right */
+/* align all text in right */
 .meta-details {
   text-align: right;
 }
@@ -201,7 +201,7 @@ ul {
 }
 /* POST AREA */
 .main-post-info {
-  padding-right: 15px;
+  padding-right: 10px;
   padding-left: 15px;
   box-sizing: border-box;
 }
@@ -241,6 +241,10 @@ ul {
 }
 /* SIDEBAR WIDGET START */
 /* adding border on all side widget area */
+.sidebar-widget {
+  box-sizing: border-box;
+  padding-left: 18px;
+}
 .widget-wrap {
   border: 1px solid #eee;
   padding: 20px 0;
@@ -285,4 +289,40 @@ ul {
 /* adding height to the form */
 .search-widget form {
   overflow: hidden;
+}
+/* SEARCH WIDGET END */
+/* USER INFO WIDGET START */
+/* adding space and aligning content in center */
+.user-info-widget {
+  margin: 30px;
+  text-align: center;
+}
+/* aligning ul in one row */
+.user-info-widget li {
+  display: inline-block;
+}
+/* text formatting */
+.user-info-widget a {
+  text-decoration: none;
+  color: #222;
+  font-weight: 600;
+  font-size: 18px;
+}
+.user-info-widget a h4 {
+  margin-top: 40px;
+  margin-bottom: 5px;
+}
+.user-info-widget p {
+  margin-top: 0;
+  margin-bottom: 16;
+  color: #777;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.625em;
+}
+.user-info-widget ul li i {
+  color: #222;
+  padding: 10px;
+  font-size: 18px;
+  border-bottom: 1px solid #eee;
 }
