@@ -295,6 +295,8 @@ ul {
 /* adding space and aligning content in center */
 .user-info-widget {
   margin: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #eee;
   text-align: center;
 }
 /* aligning ul in one row */
@@ -324,5 +326,53 @@ ul {
   color: #222;
   padding: 10px;
   font-size: 18px;
+}
+/* USER INFO WIDGET END */
+/* POPULAR POSTS WIDGET START */
+/* positioning and margins */
+.popular-post-widget {
+  margin: 30px;
+  padding-bottom: 30px;
   border-bottom: 1px solid #eee;
 }
+.single-popular-post {
+  display: flex;
+}
+/* popular post text */
+.popular-post-widget h4 {
+  background: #8490ff;
+  color: #fff;
+  text-align: center;
+  padding: 12px 0;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+/* aligning single popular post */
+.single-popular-post {
+  margin-bottom: 20px;
+}
+.popular-post-text {
+  margin-left: 12px;
+}
+/* text formatting */
+.popular-post-text p {
+  color: #777;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.625em;
+  margin: 0;
+}
+.popular-post-text a {
+  text-decoration: none;
+}
+.popular-post-text h6 {
+  color: #222;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+/* hover */
+.popular-post-text a h6:hover {
+  color: #8490ff;
+}
+/* POPULAR POSTS WIDGET END */
