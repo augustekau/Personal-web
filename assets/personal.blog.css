@@ -239,3 +239,50 @@ ul {
   color: white;
   transition: all 200ms ease-in-out;
 }
+/* SIDEBAR WIDGET START */
+/* adding border on all side widget area */
+.widget-wrap {
+  border: 1px solid #eee;
+  padding: 20px 0;
+}
+/* SEARCH WIDGET START */
+.search-widget {
+  padding-bottom: 30px;
+  margin: 30px;
+  border-bottom: 1px solid #eee;
+  box-sizing: border-box;
+}
+/* formating the input field */
+.search-widget form input {
+  padding: 10px 22px;
+  font-size: 14px;
+  border: none;
+  float: left;
+  width: 80%;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  background: #8490ff;
+  box-sizing: border-box;
+  color: #fff;
+}
+.search-widget button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #8490ff;
+  color: #fff;
+  font-size: 14px;
+  border: none;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.search-widget ::placeholder {
+  color: #fff;
+  opacity: 1;
+}
+/* adding height to the form */
+.search-widget form {
+  overflow: hidden;
+}
