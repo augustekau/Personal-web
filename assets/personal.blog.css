@@ -70,12 +70,18 @@
 .widget-row {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 /* add space between photos */
 .single-widget {
   padding-right: 15px;
   padding-left: 15px;
   box-sizing: border-box;
+  width: 33.33%;
+}
+/* so the photo will get smaller when changing screen */
+.widget-photo {
+  width: 100%;
 }
 /* add space at top and botton from widget row */
 .widget-area {
@@ -325,8 +331,14 @@ ul {
 .user-info-widget ul li i {
   color: #222;
   padding: 10px;
-  font-size: 18px;
+  font-size: 15px;
 }
+/* hover on icons */
+.user-info-widget ul li a i:hover {
+  color: #8490ff;
+  transition: all 200ms ease-in-out;
+}
+
 /* USER INFO WIDGET END */
 /* POPULAR POSTS WIDGET START */
 /* positioning and margins */
@@ -346,6 +358,7 @@ ul {
   padding: 12px 0;
   font-weight: 600;
   margin-bottom: 30px;
+  font-size: 18px;
 }
 /* aligning single popular post */
 .single-popular-post {
@@ -374,5 +387,75 @@ ul {
 /* hover */
 .popular-post-text a h6:hover {
   color: #8490ff;
+  transition: all 200ms ease-in-out;
+}
+/* the image will get smaller when web screen is changed */
+.popular-post-img {
+  max-width: 100%;
+  vertical-align: middle;
+  height: auto;
 }
 /* POPULAR POSTS WIDGET END */
+/* ADD WIDGET START */
+.add-widget {
+  margin: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #eee;
+}
+/* the image will get smaller when web screen is changed */
+.add-widget img {
+  max-width: 100%;
+}
+/* ADD WIDGET END */
+/* adding margins on whole widhet */
+.post-category-widget {
+  margin: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #eee;
+}
+/* text formattingß */
+.post-category-widget h4 {
+  background: #8490ff;
+  color: #fff;
+  text-align: center;
+  padding: 12px 0;
+  font-weight: 600;
+  margin-bottom: 30px;
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+/* aligning items */
+.single-post-category ul li a {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  height: 100%;
+}
+.single-post-category ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+/* text formatting */
+.single-post-category ul li p {
+  color: #777;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.625em;
+  margin: 0;
+}
+.single-post-category ul li {
+  padding-top: 15px;
+  padding-bottom: 8px;
+  border-bottom: 2px dotted #eee;
+}
+/* hoveris to change text color*/
+.single-post-category ul li:hover p {
+  color: #8490ff;
+  transition: all 200ms ease-in-out;
+}
+/* hover to change border color */
+.single-post-category ul li:hover {
+  border-color: #8490ff;
+  transition: all 200ms ease-in-out;
+}
