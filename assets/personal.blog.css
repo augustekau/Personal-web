@@ -407,7 +407,8 @@ ul {
   max-width: 100%;
 }
 /* ADD WIDGET END */
-/* adding margins on whole widhet */
+/* POPULAR POST WIDGET START */
+/* adding margins on whole widget */
 .post-category-widget {
   margin: 30px;
   padding-bottom: 30px;
@@ -459,3 +460,65 @@ ul {
   border-color: #8490ff;
   transition: all 200ms ease-in-out;
 }
+/* POPULAR POST WIDGET END */
+/* NEWSLETTER START */
+
+.newsletter-widget {
+  margin: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #eee;
+}
+.newsletter-widget h4 {
+  background: #8490ff;
+  color: #fff;
+  text-align: center;
+  padding: 12px 0;
+  font-weight: 600;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+/* text formatting */
+.newsletter-widget p {
+  color: #777;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.625em;
+  text-align: center;
+}
+.newsletter-widget form {
+  display: flex;
+  position: relative;
+  width: 100%;
+  margin-bottom: 25px;
+}
+.newsletter-widget form input {
+  width: 65%;
+  border: 1px solid #eee;
+  padding-left: 50px;
+  background: white;
+  font-size: 13px;
+  color: #ccc;
+}
+.newsletter-widget form button {
+  width: 35%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  background: #8490ff;
+  border: none;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  text-decoration: none;
+}
+.newsletter-widget form i {
+  position: absolute;
+  top: 3px;
+  left: 10px;
+  font-size: 30px;
+  color: #ccc;
+}
+/* so blue borner will not apprear when clicking on input */
+input:focus {
+  outline: none;
+}
+/* NEWSLETTER END */
