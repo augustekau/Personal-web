@@ -509,6 +509,7 @@ ul {
   font-size: 12px;
   font-weight: 500;
   text-decoration: none;
+  cursor: pointer;
 }
 .newsletter-widget form i {
   position: absolute;
@@ -517,8 +518,47 @@ ul {
   font-size: 30px;
   color: #ccc;
 }
-/* so blue borner will not apprear when clicking on input */
+/* so blue border will not apprear when clicking on input */
 input:focus {
   outline: none;
 }
 /* NEWSLETTER END */
+/* TAG CLOUDS START */
+.tag-clouds-widget {
+  margin: 30px;
+}
+.tag-clouds-widget h4 {
+  background: #8490ff;
+  color: #fff;
+  text-align: center;
+  padding: 12px 0;
+  font-weight: 600;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+/* ul display in line */
+.tag-clouds-widget ul li {
+  display: inline-block;
+  padding: 10px 20px;
+  background: white;
+  border: 1px solid #eee;
+  margin-bottom: 10px;
+  margin-right: 5px;
+}
+.tag-clouds-widget ul li a {
+  text-decoration: none;
+  color: #222;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.625em;
+}
+/* hover */
+.tag-clouds-widget li:hover {
+  background: #8490ff;
+  transition: all 200ms ease-in-out;
+}
+.tag-clouds-widget li:hover a {
+  color: white;
+  transition: all 200ms ease-in-out;
+}
+/* TAG CLOUDS END */
